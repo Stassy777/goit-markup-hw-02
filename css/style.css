@@ -7,40 +7,151 @@
 body {
   background: #fff;
   color: var(--NAVY-BLUE, #2e2f42);
+  font-family: Roboto, sans-serif;
 }
+/* logo
+ */
 .logo {
+  font-family: Raleway, sans-serif;
   color: var(--IRIS, #4d5ae5);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
 }
 
 .logo .accent {
   color: var(--NAVY-BLUE, #2e2f42);
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
 }
 ul {
   list-style: none;
 }
+/* Button */
+.button {
+  color: var(--WHITE, #fff);
+  background: var(--IRIS, #4d5ae5);
+  font-size: 16px;
+
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+.button:hover {
+  background: var(--OCEAN, #404bbf);
+}
+
 /* navigation */
 
 .nav-link {
   color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 16px;
+
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
 }
 .nav-link:hover,
 .nav-link:focus {
   color: var(--OCEAN, #404bbf);
 }
+/* contacts */
+.contacts-link {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 16px;
+
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--OCEAN, #404bbf);
+}
+/* hero-title */
+.hero-title {
+  color: var(--WHITE, #fff);
+  background: var(--NAVY-BLUE, #2e2f42);
+  font-size: 56px;
+
+  font-weight: 700;
+  line-height: 60px; /* 107.143% */
+  letter-spacing: 1.12px;
+}
 
 /* content */
 .content .content-title {
   color: var(--NAVY-BLUE, #2e2f42);
+  width: 264px;
+  font-size: 20px;
+
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.4px;
 }
 
 .content .content-text {
   color: var(--SLATE, #434455);
+  width: 264px;
+  font-size: 16px;
+
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
 }
+
+/* Our team */
+.section-title {
+  font-size: 36px;
+
+  font-weight: 700;
+  line-height: 40px; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
 .team {
   background: var(--CLOUD, #f4f4fd);
 }
+.team-list .title {
+  font-size: 20px;
+
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.4px;
+}
 .team-list .text {
   color: var(--SLATE, #434455);
+  font-size: 16px;
+
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
 }
 
-/* Our Portfolio */
+/* Footer */
+.main-footer {
+  flex-shrink: 0;
+  background: var(--NAVY-BLUE, #2e2f42);
+}
+.main-footer .text {
+  color: var(--CLOUD, #f4f4fd);
+  font-size: 16px;
+
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+.main-footer .accent {
+  color: var(--CLOUD, #f4f4fd);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}

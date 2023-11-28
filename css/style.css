@@ -162,9 +162,9 @@ ul {
 .main-footer .text {
   color: var(--CLOUD, #f4f4fd);
   font-size: 16px;
-  line-height: 1.17;
   letter-spacing: 0.32px;
   text-transform: uppercase;
+  line-height: 1.5;
 }
 .main-footer .accent {
   color: var(--CLOUD, #f4f4fd);
